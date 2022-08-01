@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;550;700&family=Poppins:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="container">
+      <div class="nav-container">
+        <div class="mobile-menu-container">
+          <div class="close-menu-mobile-button hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="signin-svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </div>
+          <div class="back-button hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="signin-svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div class="menu-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="signin-svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </div>
+          <div class="search-button-mobile">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="signin-svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="nav-box">
+          <div class="home-link-container">
+            <a href="index.html"
+              ><img class="home-link-img" src="img/Microsoft_logo.png"
+            /></a>
+          </div>
+          <ul class="nav-list flex-display">
+            <li><a href="#" class="nav-link">Microsoft 365</a></li>
+            <li><a href="#" class="nav-link">Windows</a></li>
+            <li><a href="#" class="nav-link">Surface</a></li>
+            <li><a href="#" class="xbox-link nav-link">Xbox</a></li>
+            <li><a href="#" class="deals-link nav-link">Deals</a></li>
+            <li><a href="#" class="support-link nav-link">Support</a></li>
+            <li><a href="#" class="more-link nav-link">More v</a></li>
+          </ul>
+        </div>
+        <div class="nav-box-two">
+          <div class="nav-grid">
+            <div class="nav-item-container all-microsoft-button">
+              <p>All Microsoft</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="signin-svg arrow"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="1"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </div>
+            <div class="nav-item-container search-button">
+              <span><p>Search</p></span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="signin-svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="1"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </div>
+            <div class="nav-item-container">
+              <span><p>Cart</p></span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="signin-svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="1"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+              </svg>
+            </div>
+            <div class="nav-item-container">
+              <span><p>Sign in</p></span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="signin-svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="1"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="search-box hidden">
+          <input
+            class="search-bar"
+            type="text"
+            placeholder="Search products, information, support, and more"
+          />
+          <!-- <button class="all"><p>All v</p></button> -->
+          <button class="cancel"><p>Cancel</p></button>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="hero-section container">
+        <div class="hero-container">
+          <div class="mobile-menu hidden">
+            <a href="#" class="mobile-menu-button">Microsoft 365</a>
+            <a href="#" class="mobile-menu-button">Office</a>
+            <a href="#" class="mobile-menu-button">Windows</a>
+            <a href="#" class="mobile-menu-button">Surface</a>
+            <a href="#" class="mobile-menu-button">Xbox</a>
+            <a href="#" class="mobile-menu-button">Deals</a>
+            <a href="#" class="mobile-menu-button">Support</a>
+            <a class="menu-button-software">
+              <p>Software</p>
+              <p class="sub-menu-svg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="submenu-svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </p>
+              <p class="sub-menu-svg-up hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="submenu-svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 15l7-7 7 7"
+                  />
+                </svg>
+              </p>
+            </a>
+            <div class="mobile-sub-menu-software hidden">
+              <a href="#" class="sub-menu-link">Windows Apps</a>
+              <a href="#" class="sub-menu-link">OneDrive</a>
+              <a href="#" class="sub-menu-link">Outlook</a>
+              <a href="#" class="sub-menu-link">Skype</a>
+              <a href="#" class="sub-menu-link">OneNote</a>
+              <a href="#" class="sub-menu-link">Microsoft Teams</a>
+              <a href="#" class="sub-menu-link">Microsoft Edge</a>
+            </div>
+            <a class="menu-button-pc flex-display">
+              <p>PCs & Devices</p>
+              <p class="drop-down-menu">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="submenu-svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </p>
+            </a>
+            <div class="mobile-sub-menu-pc hidden">
+              <a href="#" class="sub-menu-link">Computers</a>
+              <a href="#" class="sub-menu-link">Shop Xbox</a>
+              <a href="#" class="sub-menu-link">Accessories</a>
+              <a href="#" class="sub-menu-link">VR & mixed reality</a>
+              <a href="#" class="sub-menu-link">Phones</a>
+            </div>
+            <a class="menu-button-entertainment flex-display">
+              <p>Entertainment</p>
+              <p class="drop-down-menu">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="submenu-svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </p>
+            </a>
+            <div class="mobile-sub-menu-entertainment hidden">
+              <a href="#" class="sub-menu-link">Xbox Game Pass Ultimate</a>
+              <a href="#" class="sub-menu-link">PC Game Pass</a>
+              <a href="#" class="sub-menu-link">Xbox games</a>
+              <a href="#" class="sub-menu-link">PC games</a>
+              <a href="#" class="sub-menu-link">Windows digital games</a>
+              <a href="#" class="sub-menu-link">Movies & TV</a>
+            </div>
+            <a class="menu-button-business flex-display">
+              <p>Business</p>
+              <p class="drop-down-menu">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="submenu-svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </p>
+            </a>
+            <div class="mobile-sub-menu-business hidden">
+              <a href="#" class="sub-menu-link">Microsoft Cloud</a>
+              <a href="#" class="sub-menu-link">Microsoft Security</a>
+              <a href="#" class="sub-menu-link">Azure</a>
+              <a href="#" class="sub-menu-link">Dynamics 365</a>
+              <a href="#" class="sub-menu-link">Microsft 365 for business</a>
+              <a href="#" class="sub-menu-link">Microsoft Industry</a>
+              <a href="#" class="sub-menu-link">Microsoft Power Platform</a>
+              <a href="#" class="sub-menu-link">Windows 365</a>
+            </div>
+            <a class="menu-button-developer flex-display">
+              <p>Developer & IT</p>
+              <p class="drop-down-menu">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="submenu-svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </p>
+            </a>
+            <div class="mobile-sub-menu-developer hidden">
+              <a href="#" class="sub-menu-link">Developer Center</a>
+              <a href="#" class="sub-menu-link">Documentation</a>
+              <a href="#" class="sub-menu-link">Microsoft Learn</a>
+              <a href="#" class="sub-menu-link">Microsoft Tech Community</a>
+              <a href="#" class="sub-menu-link">Azure Marketplace</a>
+              <a href="#" class="sub-menu-link">AppSource</a>
+              <a href="#" class="sub-menu-link">Visual Studio</a>
+            </div>
+            <a class="menu-button-other flex-display">
+              <p>Other</p>
+              <p class="drop-down-menu">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="submenu-svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </p>
+            </a>
+            <div class="mobile-sub-menu-other hidden">
+              <a href="#" class="sub-menu-link">Windows Apps</a>
+              <a href="#" class="sub-menu-link">OneDrive</a>
+              <a href="#" class="sub-menu-link">Outlook</a>
+              <a href="#" class="sub-menu-link">Skype</a>
+              <a href="#" class="sub-menu-link">OneNote</a>
+              <a href="#" class="sub-menu-link">Microsoft Teams</a>
+              <a href="#" class="sub-menu-link">Microsoft Edge</a>
+            </div>
+            <a href="#" class="mobile-menu-button">View Sitemap</a>
+          </div>
+          <div class="nav-menu hidden">
+            <div class="extra-links-container">
+              <ul>
+                <li class="nav-list-header">
+                  <p>Software</p>
+                </li>
+                <li><a href="#" class="extra-nav-links">Windows Apps</a></li>
+                <li><a href="#" class="extra-nav-links">OneDrive</a></li>
+                <li><a href="#" class="extra-nav-links">Outlook</a></li>
+                <li><a href="#" class="extra-nav-links">Skype</a></li>
+                <li><a href="#" class="extra-nav-links">OneNote</a></li>
+                <li><a href="#" class="extra-nav-links">Microsoft Teams</a></li>
+                <li><a href="#" class="extra-nav-links">Microsoft Edge</a></li>
+              </ul>
+            </div>
+            <div class="extra-links-container">
+              <ul>
+                <li class="nav-list-header">
+                  <p>PCs & Devices</p>
+                </li>
+                <li><a href="#" class="extra-nav-links">Computers</a></li>
+                <li><a href="#" class="extra-nav-links">Shop Xbox</a></li>
+                <li><a href="#" class="extra-nav-links">Accesories</a></li>
+                <li>
+                  <a href="#" class="extra-nav-links">VR & mixed reality</a>
+                </li>
+                <li><a href="#" class="extra-nav-links">Phones</a></li>
+              </ul>
+            </div>
+            <div class="extra-links-container">
+              <ul>
+                <li class="nav-list-header">
+                  <p>Entertainment</p>
+                </li>
+                <li>
+                  <a href="#" class="extra-nav-links"
+                    >Xbox Game Pass Ultimate</a
+                  >
+                </li>
+                <li><a href="#" class="extra-nav-links">PC Game Pass</a></li>
+                <li><a href="#" class="extra-nav-links">Xbox games</a></li>
+                <li><a href="#" class="extra-nav-links">PC games</a></li>
+                <li>
+                  <a href="#" class="extra-nav-links">Windows digital games</a>
+                </li>
+                <li><a href="#" class="extra-nav-links">Movies & TV</a></li>
+              </ul>
+            </div>
+            <div class="extra-links-container">
+              <ul>
+                <li class="nav-list-header">
+                  <p>Business</p>
+                </li>
+                <li><a href="#" class="extra-nav-links">Microsoft Cloud</a></li>
+                <li>
+                  <a href="#" class="extra-nav-links">Microsoft Security</a>
+                </li>
+                <li><a href="#" class="extra-nav-links">Azure</a></li>
+                <li><a href="#" class="extra-nav-links">Dynamics 365</a></li>
+                <li>
+                  <a href="#" class="extra-nav-links"
+                    >Microsft 365 for business</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="extra-nav-links"
+                    >Microsoft Power Platform</a
+                  >
+                </li>
+                <li><a href="#" class="extra-nav-links">Windows 365</a></li>
+              </ul>
+            </div>
+            <div class="extra-links-container">
+              <ul>
+                <li class="nav-list-header">
+                  <p>Developer & IT</p>
+                </li>
+                <li>
+                  <a href="#" class="extra-nav-links">Developer Center</a>
+                </li>
+                <li><a href="#" class="extra-nav-links">Documentation</a></li>
+                <li><a href="#" class="extra-nav-links">Microsoft Learn</a></li>
+                <li>
+                  <a href="#" class="extra-nav-links"
+                    >Microsoft Tech Community</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="extra-nav-links">Azure Marketplace</a>
+                </li>
+                <li><a href="#" class="extra-nav-links">AppSource</a></li>
+                <li><a href="#" class="extra-nav-links">Visual Studio</a></li>
+              </ul>
+            </div>
+            <div class="extra-links-container">
+              <ul>
+                <li class="nav-list-header">
+                  <p>Other</p>
+                </li>
+                <li>
+                  <a href="#" class="extra-nav-links">Microsoft Rewards</a>
+                </li>
+                <li>
+                  <a href="#" class="extra-nav-links"
+                    >Free downloads & security</a
+                  >
+                </li>
+                <li><a href="#" class="extra-nav-links">Education</a></li>
+                <li>
+                  <a href="#" class="extra-nav-links"
+                    >Virtual workshops and training</a
+                  >
+                </li>
+                <li><a href="#" class="extra-nav-links">Gift cards</a></li>
+                <li><a href="#" class="extra-nav-links">Gift ideas</a></li>
+                <li><a href="#" class="extra-nav-links">Licensing</a></li>
+                <li>
+                  <a href="#" class="extra-nav-links"
+                    >Microsoft Experience Center</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="sitemap">
+              <a href="#" class="extra-nav-links">View sitemap</a>
+            </div> -->
+          </div>
+          <div class="sub-nav-menu hidden">
+            <ul class="sub-nav-menu-list">
+              <li class="sub-nav-menu-item-xbox">Xbox</li>
+              <li class="sub-nav-menu-list-item">Deals</li>
+              <li class="sub-nav-menu-list-item">Support</li>
+            </ul>
+          </div>
+          <div class="sale-alert">
+            <a href="#" class="sale-link">
+              Spring Sale--save on select games, PCs, Surface, and more. Sale
+              ends 4/21. Shop now > (THIS WEBSITE HAS BEEN MADE FOR EDUCATIONAL
+              PURPOSES ONLY)
+            </a>
+          </div>
+          <div class="hero-link-img-container-one">
+            <a href="index.html"
+              ><img class="hero-link-img" src="img/surface-laptops-big.webp" />
+              <img
+                class="hero-link-img-medium"
+                src="img/surface-laptops-medium.webp" />
+              <img
+                class="hero-link-img-small"
+                src="img/surface-laptops-small.webp"
+            /></a>
+            <div class="hero-header-box">
+              <div>
+                <div class="spring-sale">
+                  <div class="sale-text-container">
+                    <p>Spring Sale</p>
+                  </div>
+                </div>
+                <p class="hero-header">Save on Surface</p>
+              </div>
+              <p class="hero-sub-header">
+                Don't miss your chance to score incredible deals on select
+                Surface devices. If you have questions before you buy, chat with
+                a product expert.
+              </p>
+
+              <div></div>
+              <div></div>
+              <div class="button-container">
+                <a href="#" class="hero-button btn"><p>Shop now ></p></a>
+                <a href="#" class="hero-button bonus btn"
+                  ><p>Book an appointment ></p></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="hero-link-img-container-two hidden">
+            <a href="index.html">
+              <img class="hero-link-img-two" src="img/surface-pro-x-big.webp" />
+              <img
+                class="hero-link-img-two-medium"
+                src="img/surface-pro-x-medium.webp"
+              />
+              <img
+                class="hero-link-img-two-small"
+                src="img/surface-pro-x-small.webp"
+              />
+            </a>
+            <div class="hero-header-box-two">
+              <div>
+                <div>
+                  <p class="hero-header-two">
+                    Save up to $200 on select Surface Pro X
+                  </p>
+                </div>
+              </div>
+              <p class="hero-sub-header-two">
+                New season,fresh savings on our thinnest, lightest, surface
+                device. Don't wait -- promo ends 4/17
+              </p>
+              <a href="#" class="hero-button-two btn"
+                ><p>Shop Surface Pro X ></p></a
+              >
+            </div>
+          </div>
+          <div class="hero-link-img-container-three hidden">
+            <a href="index.html"
+              ><img
+                class="hero-link-img-three"
+                src="img/woman-using-surface-pro-8.webp" />
+              <img
+                class="hero-link-img-three-medium"
+                src="img/woman-using-surface-pro-eight-medium.webp" />
+              <img
+                class="hero-link-img-three-small"
+                src="img/woman-using-surface-pro-eight-small.webp"
+            /></a>
+            <div class="hero-header-box-three">
+              <div>
+                <p class="hero-header-three">Surface Pro 8</p>
+              </div>
+              <p class="hero-sub-header-three">
+                Do more with a larger 13-inch touchscreen, faster connections,
+                and extra speed. Now available with Windows 11.
+              </p>
+              <a href="#" class="hero-button-three btn"><p>Shop now ></p></a>
+            </div>
+          </div>
+
+          <button class="slide-button-left">
+            <svg
+              class="slide-arrow"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="0.5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+          <button class="slide-button-right">
+            <svg
+              class="slide-arrow"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="0.5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <section class="choice-section container">
+        <ul class="choice-list">
+          <li class="choice-list-item">
+            <a href="#" class="choice-link">
+              <div class="choice-list-item-container">
+                <img
+                  class="choice-link-img"
+                  src="img/Winodws-logo.png"
+                  alt="windows icon"
+                />
+                <a href="#" class="choice-link-text">
+                  <p>Choose your Microsoft 365</p>
+                </a>
+              </div>
+            </a>
+          </li>
+          <li class="choice-list-item">
+            <div class="choice-list-item-container">
+              <a href="#" class="choice-link"
+                ><img
+                  class="choice-link-img"
+                  src="img/surface-logo.webp"
+                  alt="surface tablet icon"
+              /></a>
+              <a href="#" class="choice-link-text"
+                ><p>Shop Surface devices</p></a
+              >
+            </div>
+          </li>
+          <li class="choice-list-item">
+            <div class="choice-list-item-container">
+              <a href="#" class="choice-link"
+                ><img
+                  class="choice-link-img"
+                  src="img/xbox-logo.webp"
+                  alt="xbox logo"
+              /></a>
+              <a href="#" class="choice-link-text"
+                ><p>Buy Xbox games and consoles</p></a
+              >
+            </div>
+          </li>
+          <li class="choice-list-item">
+            <div class="choice-list-item-container">
+              <a href="#" class="choice-link"
+                ><img
+                  class="choice-link-img"
+                  src="img/Winodws-logo.png"
+                  alt="windows icon"
+              /></a>
+              <a href="#" class="choice-link-text"><p>Get Windows 11</p></a>
+            </div>
+          </li>
+          <li class="choice-list-item">
+            <div class="choice-list-item-container">
+              <a href="#" class="choice-link"
+                ><img
+                  class="choice-link-img"
+                  src="img/surface-laptop.webp"
+                  alt="surface laptop icon"
+              /></a>
+              <a href="#" class="choice-link-text"><p>Find your next PC</p></a>
+            </div>
+          </li>
+          <li class="choice-list-item">
+            <div class="choice-list-item-container">
+              <a href="#" class="choice-link"
+                ><img
+                  class="choice-link-img"
+                  src="img/suitcase-logo.webp"
+                  alt="suitcase logo"
+              /></a>
+              <a href="#" class="choice-link-text"><p>Shop business</p></a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="card-section-one container">
+        <div class="card-container">
+          <a href="#" class="card">
+            <img
+              class="card-image"
+              src="img/surface-laptop-small.webp"
+              alt="image of surface laptop"
+            />
+            <p class="card-header">Up to $200 off</p>
+            <p class="card-text">
+              Save now on select Surface Laptop Go—designed with style,
+              performance, and portability in mind.
+            </p>
+            <p class="card-link">Shop Surface Laptop Go ></p>
+          </a>
+          <a href="#" class="card">
+            <img
+              class="card-image"
+              src="img/microsoft-headphones.webp"
+              alt="image of surface earbuds and surface headphones"
+            />
+            <p class="card-header">Never miss a beat</p>
+            <p class="card-text">
+              Discover the latest audio from Surface, featuring
+              ultra-comfortable design, immersive sound, and all-day battery.
+            </p>
+            <p class="card-link">Shop Surface Earbuds ></p>
+            <p class="card-link">Shop Surface Headphones 2 ></p>
+          </a>
+          <a href="#" class="card">
+            <img
+              class="card-image"
+              src="img/xbox-series-s.webp"
+              alt="image of an xbox series s with controller"
+            />
+            <p class="card-header">Xbox Series S</p>
+            <p class="card-text">
+              Next-gen performance in the smallest Xbox ever.
+            </p>
+            <p class="card-link">Shop now ></p>
+          </a>
+          <a href="#" class="card">
+            <img
+              class="card-image"
+              src="img/xbox-game-pass.jfif"
+              alt="image of PC game pass"
+            />
+            <p class="card-header">PC Game Pass</p>
+            <p class="card-text">
+              Unlock 100+ great games and EA Play, plus get your first month for
+              $1. Offer available to new subscribers only.
+            </p>
+            <div class="link-inline">
+              <p class="card-link">Join now ></p>
+              <p class="card-link">Compare all plans ></p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="promotion-section-one container">
+        <div class="promo-link-img-container">
+          <a href="index.html"
+            ><img class="promo-link-img" src="img/pc-game-pass-big.jfif" />
+            <img
+              class="promo-link-img-medium"
+              src="img/pc-game-pass-medium.jfif" />
+            <img class="promo-link-img-small" src="img/pc-game-pass-small.jfif"
+          /></a>
+          <div class="promo-header-box">
+            <p class="promo-header">PC Game Pass</p>
+            <p class="promo-sub-header">
+              Unlock 100+ great games and EA Play, plus get your first month for
+              $1. Offer available to new subscribers only.
+            </p>
+            <div class="button-container">
+              <a href="#" class="promo-button btn"><p>Join now ></p></a>
+              <a href="#" class="promo-button-two btn"
+                ><p>Compare all plans ></p></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card-section-two container">
+        <p class="card-section-header">For business</p>
+        <div class="card-container">
+          <a href="#" class="card">
+            <img
+              class="card-image"
+              src="img/surface-pro-eight-tablet.webp"
+              alt="image of surface pro 8 tablet"
+            />
+            <p class="card-header">
+              Buy Surface Pro 8 for Business, get 20% off select accessories
+            </p>
+            <p class="card-text">
+              Work how you choose and save when you add a Surface Slim Pen 2 and
+              Surface Pro Signature Keyboard to your device purchase.
+            </p>
+            <div class="link-inline">
+              <p class="card-link">Shop now ></p>
+              <p class="card-link">Shop Enterprise ></p>
+            </div>
+          </a>
+          <a href="#" class="card">
+            <img
+              class="card-image"
+              src="img/people-having-online-meeting-on-tablet.webp"
+              alt="people having an online meeting on a tablet"
+            />
+            <p class="card-header">Get Microsoft Teams for free</p>
+            <p class="card-text">
+              Get online meetings, chat, and shared cloud storage - all in one
+              place with the free version of Microsoft Teams
+            </p>
+            <p class="card-link">Sign up for free ></p>
+          </a>
+          <a href="#" class="card">
+            <img
+              class="card-image"
+              src="img/office-setup.webp"
+              alt="office setup with desktop computer"
+            />
+            <p class="card-header">Microsoft 365 for business</p>
+            <p class="card-text">
+              Stay a step ahead with powerful apps for productivity, connection,
+              and security. Make an appointment with an expert to determine the
+              best solution for your business.
+            </p>
+            <div class="link-inline">
+              <p class="card-link">Shop now ></p>
+              <p class="card-link">Book a consultation ></p>
+            </div>
+          </a>
+          <a href="#" class="card">
+            <img
+              class="card-image"
+              src="img/surface-tablet.webp"
+              alt="a tablet"
+            />
+            <p class="card-header">Windows 11 for business is here</p>
+            <p class="card-text">
+              Designed for hybrid work. Powerful for employees. Consistent for
+              IT. Secure for all.
+            </p>
+            <p class="card-link">Learn more ></p>
+          </a>
+        </div>
+      </section>
+
+      <section class="promotion-section-two container">
+        <div class="promo-link-img-container-two">
+          <a href="index.html"
+            ><img
+              class="promo-link-img-two"
+              src="img/three-woman.webp"
+              alt="elderly-woman" />
+            <img
+              class="promo-link-img-two-medium"
+              src="img/three-women-medium.webp"
+              alt="elderly-woman" />
+            <img
+              class="promo-link-img-two-small"
+              src="img/three-women-small.webp "
+              alt="elderly-woman"
+          /></a>
+          <div class="promo-header-box-two">
+            <p class="promo-header-two">Meet inspiring women in sports</p>
+            <p class="promo-sub-header-two">
+              From playmakers to trailblazers, Microsoft is committed to
+              empowering athletes who are breaking new ground and helping other
+              women and girls thrive
+            </p>
+            <div class="pro-btn-two-container">
+              <a href="#" class="promo-button-two btn"><p>Learn more ></p></a>
+            </div>
+          </div>
+        </div>
+        <div class="promo-link-img-container-three hidden">
+          <a href="index.html"
+            ><img
+              class="promo-link-img-three"
+              src="img/black-woman-big.webp"
+              alt="elderly-woman" />
+            <img
+              class="promo-link-img-three-medium"
+              src="img/black-woman-medium.webp"
+              alt="elderly-woman" />
+            <img
+              class="promo-link-img-three-small"
+              src="img/black-woman-small.webp"
+              alt="elderly-woman"
+          /></a>
+          <div class="promo-header-box-three">
+            <p class="promo-header-three">Backing minority-owned businesses</p>
+            <p class="promo-sub-header-three">
+              Discover how a new program at Microsoft is supporting minority
+              business owners with training and networking opportunities to help
+              them scale for large construction projects.
+            </p>
+            <div class="pro-btn-three-container">
+              <a href="#" class="promo-button-three btn"><p>Learn more ></p></a>
+            </div>
+          </div>
+        </div>
+        <button class="slide-button-left-promo">
+          <svg
+            class="slide-arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="0.5"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+        </button>
+        <button class="slide-button-right-promo">
+          <svg
+            class="slide-arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="0.5"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
+      </section>
+      <div class="follow-microsoft container">
+        <p>Follow Microsoft</p>
+        <img src="img/facebook.svg" class="social-media" alt="facebook icon" />
+        <img src="img/twitter.svg" class="social-media" alt="facebook icon" />
+        <img src="img/linkedin.svg" class="social-media" alt="facebook icon" />
+      </div>
+
+      <footer>
+        <div class="footer-section container">
+          <div class="footer-list">
+            <div class="footer-card">
+              <p class="footer-header">What's new</p>
+              <a href="#" class="footer-text">Surface Pro 8</a>
+              <a href="#" class="footer-text">Surface Laptop Studio</a>
+              <a href="#" class="footer-text">Surface Pro X</a>
+              <a href="#" class="footer-text">Surface Go 3</a>
+              <a href="#" class="footer-text">Surface Duo 2</a>
+              <a href="#" class="footer-text">Surface Pro 7+</a>
+              <a href="#" class="footer-text">Windows 11 apps</a>
+              <a href="#" class="footer-text">HoloLens 2</a>
+            </div>
+            <div class="footer-card">
+              <p class="footer-header">Microsoft Store</p>
+              <a href="#" class="footer-text">Account profile</a>
+              <a href="#" class="footer-text">Download Center</a>
+              <a href="#" class="footer-text">Microsoft Store support</a>
+              <a href="#" class="footer-text">Returns</a>
+              <a href="#" class="footer-text">Order Tracking</a>
+              <a href="#" class="footer-text">Virtual workshops and training</a>
+              <a href="#" class="footer-text">Microsoft Store Promise</a>
+              <a href="#" class="footer-text">Flexible Payments</a>
+            </div>
+            <div class="footer-card">
+              <p class="footer-header">Education</p>
+              <a href="#" class="footer-text">Microsoft in education</a>
+              <a href="#" class="footer-text">Devices for education</a>
+              <a href="#" class="footer-text">Microsoft Teams for Education</a>
+              <a href="#" class="footer-text">Microsoft 365 Education</a>
+              <a href="#" class="footer-text"
+                >Education consuitation appointment</a
+              >
+              <a href="#" class="footer-text"
+                >Educator training and development</a
+              >
+              <a href="#" class="footer-text">Deals for students and parents</a>
+              <a href="#" class="footer-text">Azure for students</a>
+            </div>
+            <div class="footer-card">
+              <p class="footer-header">Business</p>
+              <a href="#" class="footer-text">Microsoft Cloud</a>
+              <a href="#" class="footer-text">Microsoft Security</a>
+              <a href="#" class="footer-text">Azure</a>
+              <a href="#" class="footer-text">Dynamics</a>
+              <a href="#" class="footer-text">Microsoft 365</a>
+              <a href="#" class="footer-text">Microsoft Advertising</a>
+              <a href="#" class="footer-text">Microsoft Industry</a>
+              <a href="#" class="footer-text">Microsoft Teams</a>
+            </div>
+            <div class="footer-card">
+              <p class="footer-header">Developer & IT</p>
+              <a href="#" class="footer-text">Developer Center</a>
+              <a href="#" class="footer-text">Documentation</a>
+              <a href="#" class="footer-text">Microsoft Learn</a>
+              <a href="#" class="footer-text">Microsoft Tech Community</a>
+              <a href="#" class="footer-text">Azure Marketplace</a>
+              <a href="#" class="footer-text">AppSource</a>
+              <a href="#" class="footer-text">Microsoft Power Platform</a>
+              <a href="#" class="footer-text">Visual Studio</a>
+            </div>
+            <div class="footer-card">
+              <p class="footer-header">Company</p>
+              <a href="#" class="footer-text">Careers</a>
+              <a href="#" class="footer-text">About Microsoft</a>
+              <a href="#" class="footer-text">Company news</a>
+              <a href="#" class="footer-text">Privacy at Microsoft</a>
+              <a href="#" class="footer-text">Investors</a>
+              <a href="#" class="footer-text">Diversity and inclusion</a>
+              <a href="#" class="footer-text">Accessibility</a>
+              <a href="#" class="footer-text">Security</a>
+            </div>
+          </div>
+          <div class="copyright-container">
+            <a href="#" class="footer-text language">English (United States)</a>
+            <div class="copyright">
+              <p>Sitemap</p>
+              <p>Contact Microsoft</p>
+              <p>Privacy</p>
+              <p>Terms of use</p>
+              <p>Trademarks</p>
+              <p>Safety & eco</p>
+              <p>About our ads</p>
+              <p>EDUCATIONAL PURPOSES ONLY</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

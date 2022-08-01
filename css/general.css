@@ -1,0 +1,190 @@
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  border: 2px dotted #222;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  /* background-color: #000; */
+  background-color: #fff;
+  color: #222;
+}
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+  margin-right: 6.8rem;
+  margin-left: 6.8rem;
+  /* padding-left: 6.4rem;
+  padding-right: 6.4rem; */
+}
+
+.button-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.grid-display {
+  display: grid;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.inline-display {
+  display: inline;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Classes I used to hide menus when changing viewport width using Media Queries */
+.mobile-hidden {
+  display: none;
+}
+
+.mobile-flex-display {
+  display: flex;
+}
+.mobile-flow-remove {
+  position: absolute;
+}
+/* /////////////////// */
+
+.flow-remove {
+  position: absolute;
+}
+
+.flow-add {
+  position: relative;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+
+  /* background-color: rgba(0, 0, 0, 0.75); */
+  background-color: #fff;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+
+  /* background-color: purple; */
+}
+
+.btn {
+  font-size: 1.4rem;
+  margin-top: 1.2rem;
+  padding-bottom: 0rem;
+  padding-left: 2.4rem;
+  padding-right: 3rem;
+  font-weight: 550;
+
+  border-radius: 0px;
+  text-decoration: none;
+  border: 3px solid transparent;
+  color: #222;
+}
+
+/* ANIMATIONS */
+.fade-in {
+  animation-duration: 100ms;
+  animation-name: fadein;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slidein-right {
+  animation-duration: 100ms;
+  animation-name: slideinright;
+}
+
+@keyframes slideinright {
+  from {
+    margin-left: 0.7%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.slidein-right-text {
+  animation-duration: 375ms;
+  animation-name: slideinrighttext;
+}
+
+@keyframes slideinrighttext {
+  from {
+    margin-left: 3%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.slidein-left {
+  animation-duration: 100ms;
+  animation-name: slideinleft;
+}
+
+@keyframes slideinleft {
+  from {
+    margin-left: -0.7%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.slidein-left-text {
+  animation-duration: 375ms;
+  animation-name: slideinlefttext;
+}
+
+@keyframes slideinlefttext {
+  from {
+    margin-left: -3%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
