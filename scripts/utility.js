@@ -65,7 +65,7 @@ function menuControls(option) {
   }
 }
 
-//function to switch between left or right in the slideshow (haven't made it fully dynamic yet; it can only go right)
+//function to switch between left or right in the slideshow
 function slideShowControls(
   firstElement,
   secondElement,
