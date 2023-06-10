@@ -1,6 +1,6 @@
 # MicrosoftClone
 /*
-=========
+
 (EDIT: Your browser might mark this website as dangerous but it is completely safe. It says
 it detects phishing on this website which I find hilarious because that means I really did 
 make a super accurate replica Lol)
